@@ -1,0 +1,40 @@
+body {
+    background-color: #8533ff;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#main-page {
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#game {
+    padding-top: 100px;
+    width: 100%;
+    background-color: black;
+}
+#game-area {
+    border: 10px solid blue;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#start-game {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#scores {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+#current-score, #high-score, #score-board {
+    color: white;
+    font-family: comic, cursive, sans-serif;
+}
+#current-score {
+    font-size: 2em;
+}
